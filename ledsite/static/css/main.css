@@ -1,0 +1,167 @@
+.wrapper{
+  width:400px;
+  margin: auto;
+
+}
+
+.swatch {
+  position: relative;
+  margin: auto;
+  float: left;
+  width: 70px;
+  height: 70px;
+}
+
+.turquoise {
+  background: #1abc9c;
+}
+.emerland {
+  background: #2ecc71;
+}
+.peterriver {
+  background: #3498db;
+}
+.amethyst {
+  background: #9b59b6;
+}
+.wetasphalt {
+  background: #34495e;
+}
+.greensea {
+  background: #16a085;
+}
+.nephritis {
+  background: #27ae60;
+}
+.belizehole {
+  background: #2980b9;
+}
+.wisteria {
+  background: #8e44ad;
+}
+.midnightblue {
+  background: #2c3e50;
+}
+.sunflower {
+  background: #f1c40f;
+}
+.carrot {
+  background: #e67e22;
+}
+.alizarin {
+  background: #e74c3c;
+}
+.clouds {
+  background: #ecf0f1;
+}
+.concrete {
+  background: #95a5a6;
+}
+.orange {
+  background: #f39c12;
+}
+.pumpkin {
+  background: #d35400;
+}
+.pomegranate {
+  background: #c0392b;
+}
+.silver {
+  background: #bdc3c7;
+}
+.asbestos {
+  background: #7f8c8d;
+}
+
+
+body {
+
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+}
+
+/*
+ * Create dark grey header with a white logo
+ */
+
+header {
+  background-color: #2B2B2B;
+  height: 35px;
+  width: 100%;
+  opacity: .9;
+  margin-bottom: 10px;
+}
+
+header h1.logo {
+  margin: 0;
+  font-size: 1.3em;
+  color: #fff;
+  text-transform: uppercase;
+  float: left;
+}
+
+header h1.logo a {
+  margin: 0;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  float: left;
+  text-decoration: none;
+}
+
+header h1.logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Center the body content
+ */
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+
+
+h2 {
+  font-size: 3em;
+  margin-top: 40px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+
+h3 {
+  font-size: 1.7em;
+  font-weight: 100;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #999;
+}
+
+
+/*
+ * Display navigation links inline
+ */
+
+.menu {
+  float: right;
+  margin-top: 8px;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu li + li {
+  margin-left: 35px;
+}
+
+.menu li a {
+  color: #999;
+  text-decoration: none;
+}

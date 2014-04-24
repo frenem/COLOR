@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+    <title>LED</title>
+    <style type="text/css"> body {background-color:{{color}};} </style>
+  <body>
+
+    <header>
+      <div class="container">
+        <h1 class="logo"><a href="{{ url_for('home') }}">COLOR</a></h1>
+
+      </div>
+    </header>
+
+    <div class="container">
+
+    <div class="wrapper">
+        <a class="swatch turquoise" href="{{ url_for('home',color='#1abc9c') }}"></a>
+        <a class="swatch emerland" href="{{ url_for('home',color='#2ecc71') }}"></a>
+        <a class="swatch peterriver" href="{{ url_for('home',color='#3498db') }}"></a>
+        <a class="swatch amethyst" href="{{ url_for('home',color='#9b59b6') }}"></a>
+        <a class="swatch wetasphalt" href="{{ url_for('home',color='#34495e') }}"></a>
+        <a class="swatch greensea" href="{{ url_for('home',color='#16a085') }}"></a>
+        <a class="swatch nephritis" href="{{ url_for('home',color='#27ae60') }}"></a>
+        <a class="swatch belizehole" href="{{ url_for('home',color='#2980b9') }}"></a>
+        <a class="swatch wisteria" href="{{ url_for('home',color='#8e44ad') }}"></a>
+        <a class="swatch midnightblue" href="{{ url_for('home',color='#2c3e50') }}"></a>
+        <a class="swatch sunflower" href="{{ url_for('home',color='#f1c40f') }}" ></a>
+        <a class="swatch carrot" href="{{ url_for('home',color='#e67e22') }}"></a>
+        <a class="swatch alizarin" href="{{ url_for('home',color='#e74c3c') }}"></a>
+        <a class="swatch clouds" href="{{ url_for('home',color='#ecf0f1') }}" ></a>
+        <a class="swatch concrete" href="{{ url_for('home',color='#95a5a6') }}" ></a>
+        <a class="swatch orange" href="{{ url_for('home',color='#f39c12') }}"></a>
+        <a class="swatch pumpkin" href="{{ url_for('home',color='#d35400') }}"></a>
+        <a class="swatch pomegranate" href="{{ url_for('home',color='#c0392b') }}"></a>
+        <a class="swatch silver" href="{{ url_for('home',color='#bdc3c7') }}"></a>
+        <a class="swatch asbestos" href="{{ url_for('home',color='#7f8c8d') }}"></a>
+    </div>
+
+    </div>
+
+  </body>
+</html>
